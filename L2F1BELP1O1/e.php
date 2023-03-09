@@ -44,17 +44,16 @@
   <li><a href="http://wordpress.com/press-this.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdQw4w9WgXcQ&quote='. $time .'&s='. $time .'" target="_blank" title="Publish on WordPress"><img alt="Publish on WordPress" src="images/flat_web_icon_set/inverted/Wordpress.png" /></a></li>
   <li><a href="mailto:?subject='. $time .'&body='. $time .'" target="_blank" title="Send email"><img alt="Send email" src="images/flat_web_icon_set/inverted/Email.png" /></a></li>
 </ul>'; ?>
-
-    <?php if ((int)date("h", time()) >= 6 && (int)date("h", time()) < 12) : ?>
+    <?php if ((int)date("H", time()) >= 6 && (int)date("H", time()) < 12) : ?>
         <html style="background-image: url('morning.png');">
     <?php endif; ?>
-    <?php if ((int)date("h", time()) >= 12 && (int)date("h", time()) < 18) : ?>
+    <?php if ((int)date("H", time()) >= 12 && (int)date("H", time()) < 18) : ?>
         <html style="background-image: url('afternoon.png');">
     <?php endif; ?>
-    <?php if ((int)date("h", time()) >= 18) : ?>
+    <?php if ((int)date("H", time()) >= 18) : ?>
         <html style="background-image: url('evening.png');">
     <?php endif; ?>
-    <?php if ((int)date("h", time()) < 6) : ?>
+    <?php if ((int)date("H", time()) < 6) : ?>
         <html style="background-image: url('night.png');">
     <?php endif; ?>
 </body>
