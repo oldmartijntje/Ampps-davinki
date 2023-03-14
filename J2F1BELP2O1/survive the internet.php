@@ -12,9 +12,8 @@
 
 <body><?php if ($_POST != "" && $_POST != null){ ?>
     Welcome <?php echo htmlspecialchars( $_POST["name"] ); ?><br>
-    Your email address is: <?php echo htmlspecialchars( $_POST["email"] ); ?>
     <?php } else { ?>
-        <form action="welcome.php" method="post">
+        <form method="post">
         <label for="fname">Name:</label><br>
         <input type="text" id="name" name="name" required><br>
         <label for="fname" id="label1"></label><br>
