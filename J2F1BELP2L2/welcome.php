@@ -10,8 +10,8 @@
 </head>
 
 <body><?php if ($_POST != "" && $_POST != null){ ?>
-    Welcome <?php echo $_POST["name"]; ?><br>
-    Your email address is: <?php echo $_POST["email"]; ?>
+    Welcome <?php echo htmlspecialchars( $_POST["name"] ); ?><br>
+    Your email address is: <?php echo htmlspecialchars( $_POST["email"] ); ?>
     <?php } else { ?>
         <form action="welcome.php" method="post">
         <label for="fname">Name:</label><br>
