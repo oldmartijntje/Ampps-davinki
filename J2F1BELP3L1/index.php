@@ -8,5 +8,10 @@
 </head>
 <body>
     <h1>henk</h1>
+    <?php 
+    include "variables.php";
+        echo $meow;
+        echo $bababooey;
+    ?>
 </body>
 </html>
