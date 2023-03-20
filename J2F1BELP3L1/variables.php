@@ -10,6 +10,7 @@
     <?php
         $meow = "henk";
         $bababooey = "kaas";
+        $fruit = ["appel", "banaan", "peer", "henk"]
     ?>
 </body>
 </html>

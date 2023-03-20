@@ -10,8 +10,11 @@
     <h1>henk</h1>
     <?php 
     include "variables.php";
-        echo $meow;
-        echo $bababooey;
+        foreach($fruit as $value) {
+            if ($value != "henk") {
+                echo $value . '<br>';
+            }
+        }
     ?>
 </body>
 </html>
