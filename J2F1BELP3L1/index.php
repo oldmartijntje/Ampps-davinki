@@ -7,14 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>henk</h1>
     <?php 
-    include "variables.php";
-        foreach($fruit as $value) {
-            if ($value != "henk") {
-                echo $value . '<br>';
-            }
-        }
+    require "content.php";
     ?>
 </body>
 </html>
