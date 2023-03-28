@@ -43,7 +43,13 @@
 <?php if ($_POST != "" && $_POST != null && count(array_filter($_POST))==count($_POST) && array_key_exists(sprintf("answer%s",$_POST["amount"]),$_POST)){ ?>
     <span id="secondPage"></span><br>
     <script>
-        var obj = JSON.parse('<?php echo json_encode($_POST) ?>');
+        <?php 
+        $newDict = [];
+        foreach($_POST as $key=>$value) {
+            $newDict[$key] = stripslashes(trim(HTMLspecialchars($value)));
+            $newDict[$key] = str_replace('\'', '♥', $newDict[$key]);
+        } ?>
+        var obj = JSON.parse('<?php echo json_encode($newDict) ?>');
         amount = 0;
         amount = obj["amount"];
         document.getElementById("secondPage").setAttribute("data-value", obj["name"]);
@@ -80,7 +86,13 @@
                     return id;
                 }
 
-                var obj = JSON.parse('<?php echo json_encode($_POST) ?>');
+                <?php 
+                $newDict = [];
+                foreach($_POST as $key=>$value) {
+                    $newDict[$key] = stripslashes(trim(HTMLspecialchars($value)));
+                    $newDict[$key] = str_replace('\'', '♥', $newDict[$key]);
+                } ?>
+                var obj = JSON.parse('<?php echo json_encode($newDict) ?>');
                 amount = 0;
                 amount = obj["amount"];
                 document.getElementById("amount").value = obj["amount"];

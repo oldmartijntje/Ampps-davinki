@@ -7,6 +7,18 @@
     <title>Freddit Editor</title>
 </head>
 <body>
+    <label for="types">Specific type filter:</label>
+
+    <select name="types" id="types">
+        <option value="any">any</option>
+        <option value="location">location</option>
+        <option value="people">people</option>
+        <option value="moment">moment</option>
+        <option value="numbers">numbers</option>
+        <option value="activity">activity</option>
+        <option value="objects">objects</option>
+        <option value="thoughts">thoughts</option>
+    </select>
     <?php
     require_once "includes/config.php";
     $sql = "SELECT * FROM answers";

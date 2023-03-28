@@ -15,7 +15,7 @@
     <?php require 'includes/header.php'; ?>
     <?php $redirectDict = array(
         'home' => 'pages/home.php',
-        'Freddit' => 'pages/survive the internet.php',
+        'Freddit' => 'pages/freddit.php',
         'PWV' => 'pages/gamePicker.php',
         'time' => 'pages/time.php',
         '404' => 'pages/404notFound.php',
