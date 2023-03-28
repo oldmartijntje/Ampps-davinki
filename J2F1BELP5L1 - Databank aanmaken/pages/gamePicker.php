@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="javascript/gamePicker.js" defer></script>
     <link rel="stylesheet" href="css/gamePicker.css">
-    <title>Document</title>
+    <title>Gamepicker</title>
     <script src="https://kit.fontawesome.com/ca1dbf1ecc.js" crossorigin="anonymous"></script>
 </head>
 
