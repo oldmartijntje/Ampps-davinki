@@ -1,0 +1,250 @@
+* {
+    background-color: #030303;
+    color: #ffffff;
+}
+
+.post * {
+    background-color: #1a1a1b;
+}
+
+.comment * {
+    background-color: #1a1a1b;
+}
+
+.title,
+.fredditTitle {
+    color: #656565;
+}
+
+.redditPage {
+    margin-bottom: 2rem;
+    background-color: #1a1a1b;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.post {
+    background-color: #1a1a1b;
+    border: 1px solid #797979;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post h1 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.post p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.postFooter {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.postFooter .footerText {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #656565;
+    cursor: pointer;
+}
+
+.postFooter .footerText:hover {
+    color: #0079d3;
+}
+
+.comment {
+    background-color: #1a1a1b;
+    border: 1px solid #797979;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.comment p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.comment .name {
+    font-weight: bold;
+}
+
+.comment .postFooter {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.comment .postFooter p {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #656565;
+    cursor: pointer;
+}
+
+.comment .postFooter p:hover {
+    color: #0079d3;
+}
+
+.form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #212121;
+}
+
+.question {
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #212121;
+}
+
+.inputText {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #424242;
+    color: #ffffff;
+    font-size: 1.1rem;
+    max-width: calc(100% - 20px);
+}
+
+.inputText:focus {
+    outline: none;
+    box-shadow: 0 0 5px 1px #ffffff;
+}
+
+.submit {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2196f3;
+    color: #ffffff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #1565c0;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #1a1a1b;
+    padding: 20px;
+}
+
+.content {
+    margin-left: 250px;
+    /* adjust this value to match the width of your sidebar */
+}
+
+.sidebar * {
+    background-color: #1a1a1b;
+}
+
+.logo {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sidebarText {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#sideBarToggle {
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#sideBarToggle:hover {
+    cursor: pointer;
+}
+
+.grey {
+    background-color: #333;
+}
+
+.clickable :hover {
+    background-color: #424242;
+}
+
+.clickable :hover * {
+    background-color: #424242;
+}
+
+.marginLeft {
+    margin-left: 1rem;
+}
+
+.marginBottom {
+    margin-bottom: 1rem;
+}
+
+.ffooter {
+    margin-top: calc(100vh - 700px);
+}
+
+.borderRadius {
+    border-radius: 1rem;
+}
+
+.margin {
+    margin: 1rem;
+}
+
+.sidebarItem {
+    border-radius: 1rem;
+    background-color: #333;
+}
+
+.borderRadius {
+    border-radius: 1rem;
+}
+
+.error {
+    color: red;
+}
+
+.formText {
+    background-color: #212121;
+}
+
+a {
+    background-color: #333;
+}
+
+.notFunnySubtext,
+.notFunnyText {
+    color: #dc6e00;
+}
+
+.noTopMargin {
+    margin-top: 0;
+}

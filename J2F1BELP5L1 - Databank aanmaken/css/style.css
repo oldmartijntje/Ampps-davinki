@@ -1,0 +1,230 @@
+.fullWidth {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+
+.pageHeader {
+    background: #333;
+    padding: 0;
+}
+
+body {
+    margin: 0px
+}
+
+.marginBottom {
+    margin-bottom: 1rem;
+}
+
+.topPadding {
+    padding-top: 1rem;
+}
+
+.bottomPadding {
+    padding-bottom: 1rem;
+}
+
+.noTopMargin,
+.noTopMargin * {
+    margin-top: 0px;
+}
+
+.noBottomMargin,
+.noBottomMargin * {
+    margin-bottom: 0px;
+}
+
+.paddingLeft {
+    padding-left: 1rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.whiteText {
+    color: #ffffff;
+}
+
+body {
+    background-color: #030303;
+    color: #ffffff;
+}
+
+.hiddenOverflow {
+    overflow-x: hidden;
+}
+
+.menuItem {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
+
+.page {
+    margin-left: 1rem;
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for the homeTitleSubtext */
+.homeTitleSubtext {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Styles for the homeText */
+.homeText {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+/* Styles for the articleHeaderText */
+.articleHeaderText {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+/* Styles for the articleImage */
+.articleImage {
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+}
+
+/* Styles for the articleImageSubtext */
+.articleImageSubtext {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Styles for the inTextLink */
+.inTextLink {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+}
+
+.inTextLink:hover {
+    color: #888;
+}
+
+/* Styles for the randomText */
+.randomText {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.imageWithSubtext {
+    margin-bottom: 2rem;
+    /* width: 48%; */
+    margin-right: 1rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article {
+    max-width: 100%;
+    background-color: #333;
+    margin-right: 1rem;
+    border-radius: 3rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.homeHeader {
+    width: 100%;
+    flex: 4;
+}
+
+.imageRowDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fullImageRow {
+    /* width: 48%; */
+    max-width: 100%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.glitchTextEffect {
+    font-family: "space Mono", monospace;
+}
+
+.footer {
+    background-color: #3b3b3b;
+    color: #ddd;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    border-top-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+    position: sticky;
+    bottom: 0;
+}
+
+.footerHeader {
+    margin-bottom: 1rem;
+}
+
+.footerHeader h1 {
+    font-size: 2rem;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 1px solid #333;
+}
+
+.footerColumn {
+    flex: 1;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    padding-right: 2rem;
+    border-right: 1px solid #5a5a5a;
+}
+
+.footerColumn:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+
+.columnTitle {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.columnText {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.footer * {
+    background-color: #3b3b3b;
+}
+
+.pointer {
+    cursor: pointer;
+}
