@@ -22,7 +22,8 @@
         'footer' => 'includes/footer.php',
         'header' => 'includes/header.php',
         'index' => 'index.php',
-        'FredditSecret' => 'pages/secret1.php');
+        'FredditSecret' => 'pages/secret1.php',
+        "Fredditor" => "pages/fredditEditor.php",);
         ?>
     
     <?php if (isset($_GET['page'])) {
