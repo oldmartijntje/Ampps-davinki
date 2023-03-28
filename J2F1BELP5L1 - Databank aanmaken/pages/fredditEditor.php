@@ -7,6 +7,27 @@
     <title>Freddit Editor</title>
 </head>
 <body>
-    
+    <?php
+    require_once "includes/config.php";
+    $sql = "SELECT * FROM answers";
+        if($result = $mysqli->query($sql)){
+            if($result->num_rows > 0){
+                while($row = $result->fetch_array()){
+                ?><script>
+                var obj = JSON.parse('<?php echo json_encode($row) ?>');
+                console.log(obj)
+            </script><?php
+            }
+                $result->free();
+            } else{
+                echo '<div class="alert alert-danger"><em>No records were found.</em></div>';
+            }
+        } else{
+            echo "Oops! Something went wrong. Please try again later.";
+        }
+        
+        // Close connection
+        $mysqli->close();
+    ?>
 </body>
 </html>
