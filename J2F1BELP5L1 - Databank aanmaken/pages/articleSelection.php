@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+<div class="page">
 <?php 
         require_once "includes/config.php";
         $sql = "SELECT * FROM articles";
@@ -21,8 +22,12 @@
                     <script>
                     var obj = JSON.parse('<?php echo json_encode($newDict) ?>');
                     </script>
-                    <h1>You can go to this awesome page:</h1>
-                    <h1 class="whiteText"><a class="inTextLink" href="?page=article&article=<?php echo $row['id'] ?>" data-value="<?php echo $row['title'] ?>" class="menuItem whiteText magic"><?php echo $row['title'] ?></a></h1><?php
+                    <article class="article">
+                        <h1 class="articleHeaderText">You can go to this awesome page:</h1>
+                        <h1 class="whiteText"><a class="inTextLink" href="?page=article&article=<?php echo $row['id'] ?>" data-value="<?php echo $row['title'] ?>" class="menuItem whiteText magic"><?php echo $row['title'] ?></a></h1>
+                        <p class="whiteText"><?php echo $row['description'] ?></p>
+                    </article>
+                    <?php
             }
                 $result->free();
             } else{
@@ -35,5 +40,6 @@
         // Close connection
         $mysqli->close();
         ?>
+</div>
 </body>
 </html>

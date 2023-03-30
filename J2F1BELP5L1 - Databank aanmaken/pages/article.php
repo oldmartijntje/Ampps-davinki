@@ -36,9 +36,16 @@ $sql = "SELECT * FROM article WHERE id = " . $_GET['article'] . "";
             <article class="article">
                 <h1 class="articleHeaderText"><?php echo $newDict['name'] ?></h1>
                 <p class="homeText"><?php echo $newDict['text'] ?></p>
-                <div class="imageWithSubtext" style="width:30%;">
-                    <img src="<?php echo $newDict['image'] ?>" alt="<?php echo $newDict['name'] ?>" class="articleImage">
-                    <p class="articleImageSubtext"><?php echo $newDict['name'] ?></p>
+                <div class="imageRowDiv">
+                    <div class="imageWithSubtext" style="width:40%;">
+                        <img src="<?php echo $newDict['image'] ?>" alt="<?php echo $newDict['image'] ?>" class="articleImage">
+                        <p class="articleImageSubtext"><?php echo $newDict['imageSubtext'] ?></p>
+                    </div>
+                    <div class="fullImageRow" style="width:55%;">
+                        <h3 class="subTitle"><?php echo $newDict['next2imageHeader'] ?></h3>
+                        <p class="homeText"><?php echo $newDict['next2imageParagraph'] ?></p>
+                        <p class="homeText"><?php echo $newDict['next2imageParagraph2'] ?></p>
+                    </div>
                 </div>
             </article>
 
