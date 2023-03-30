@@ -11,9 +11,9 @@
         <a href="?page=home" class="websiteTitle menuItem whiteText">MEOW</a>
         <a href="?page=home" data-value="Home" class="menuItem whiteText magic homeTitle">Home</a>
         <a href="?page=Freddit" data-value="Freddit" class="menuItem whiteText magic fredditTitle">Freddit</a>
-        <a href="?page=Fredditor" data-value="Freddit" class="menuItem whiteText magic fredditTitle">Fredditor</a>
         <a href="?page=PWV" data-value="Pressurized Water Vapor" class="menuItem whiteText fancy-text magic">Pressurized water vapor</a>
         <a href="?page=time" data-value="Clock" class="menuItem whiteText magic">Clock</a>
+        <a href="?page=articles" data-value="Clock" class="menuItem whiteText magic">articles</a>
     </div>
 </body>
 </html>

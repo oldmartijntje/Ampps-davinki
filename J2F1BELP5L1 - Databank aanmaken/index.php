@@ -23,8 +23,11 @@
         'header' => 'includes/header.php',
         'index' => 'index.php',
         'FredditSecret' => 'pages/secret1.php',
-        "Fredditor" => "pages/fredditEditor.php",);
-        ?>
+        'article' => 'pages/article.php',
+        'articles' => 'pages/articleSelection.php',);
+    ?>
+
+    
     
     <?php if (isset($_GET['page'])) {
         if (array_key_exists($_GET['page'], $redirectDict)) {
